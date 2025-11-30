@@ -14,4 +14,5 @@ ENV PATH="/usr/lib/chromium/:$PATH"
 ENV CHROME_BIN="/usr/bin/chromium"
 ENV CHROMEDRIVER_PATH="/usr/bin/chromedriver"
 
-CMD ["python", "bot_scraper_received.py"] 
+
+CMD ["python", "ivasms_scraper.py"] 
